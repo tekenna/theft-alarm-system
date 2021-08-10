@@ -1,0 +1,28 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: black;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo>img{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 50%; 
+}
+.nav_ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav_ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+.nav_ul li a:hover{
+    text-decoration: underline;
+}
