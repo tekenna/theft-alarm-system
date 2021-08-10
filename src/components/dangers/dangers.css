@@ -1,0 +1,30 @@
+.dangers{
+    padding: 3rem;
+    padding-top: 0;
+    margin-bottom: 2rem;
+}
+.dangers>h2{
+    font-size: 2.8rem;
+    font-weight: 100;
+    padding: 2rem 0 1rem 0;
+    text-shadow: 0.5rem 0.5rem 0.5rem rgba(177, 28, 60, 0.167);
+}
+.dangers>ul{
+    list-style: none;
+}
+.dangers>ul li{
+    margin: 2rem;
+    margin-left: 0;
+}
+.dangers>ul li>h3{
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0 1rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    border-left: 5px solid red;
+    background: rgba(220, 20, 60, 0.144);
+}
+.dangers>ul li>p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

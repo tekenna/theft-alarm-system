@@ -27,7 +27,9 @@
 .flex{
     width: 40%;
 }
-
+.flex>ul{
+    margin-left: 1.5rem;
+}
 .flex>ul li{
     font-size: 1.2rem;
     line-height: 2rem;
@@ -38,12 +40,41 @@
     font-weight: 100;
 }
 .methods{
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 @media screen and (max-width: 800px) {
+    .about_flex{
+        flex-direction: column;
+    }
+    .flex{
+        width: 100%;
+    }
+    .methods{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about{
+        padding: 2rem;
+    }
+    .about>h1{
+        font-size: 2rem;
+        padding: 1.5rem 0;
+    }
+    .h2{
+        font-size: 2rem;
+        padding: 1.5rem 0 1rem 0;
+    }
+    .about>p, .p{
+        font-size: 1rem;
+    }
+    .method_head{
+        padding: 3rem 0 0 0;
+        font-size: 2rem;
+    }
     .about_flex{
         flex-direction: column;
     }

@@ -6,20 +6,34 @@
     justify-content: center;
     align-items: center;
     color: white;
+
 }
 .header_content>h1{
     font-size: 5rem;
     text-transform: uppercase;
     padding: 2rem;
     letter-spacing: 0.4rem;
+    text-align: center;
 }
 .header_content>p{
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
     font-weight: 700;
+    padding: 2rem;
 }
 .header_content>p span{
     color: rgb(202, 122, 122);
-    
+}
+@media screen and (max-width: 700px) {
+    .header_content>h1{
+        font-size: 3rem;
+        padding: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .header_content>p{
+        text-align: center;
+        font-size: 1.2rem;
+        letter-spacing: 0.25rem;
+    }
 }
